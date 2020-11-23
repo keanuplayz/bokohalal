@@ -20,6 +20,11 @@ figcaption {
     color: white !important;
 }
 
+p {
+    color: white;
+    text-align: center !important;
+}
+
 
 /* figure fix */
 .list-unstyled {
