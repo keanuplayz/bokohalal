@@ -12,6 +12,11 @@ body {
     text-align: center !important;
 }
 
+#about {
+    color: white;
+    text-align: center !important;
+}
+
 figure {
     margin-left: 5px !important;
 }
@@ -19,12 +24,6 @@ figure {
 figcaption {
     color: white !important;
 }
-
-p #about {
-    color: white;
-    text-align: center !important;
-}
-
 
 /* figure fix */
 .list-unstyled {
