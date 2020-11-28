@@ -5,7 +5,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/BOKO_halal.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/aoQ7NG6.png");
 
   /* Set a specific height */
   height: 94%;
@@ -27,7 +27,7 @@ body, html {
   color: white;
 }
 
-.hero-text button {
+.hero-text .button {
   border: none;
   outline: 0;
   display: inline-block;
