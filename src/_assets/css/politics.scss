@@ -1,11 +1,24 @@
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
+}
+
+.textcontainer {
+  text-align: center;
+  color: white;
+  // padding-top: 50px;
+}
+
+.textcontainer > ul {
+  display: inline-block;
+  // list-style-position: inside;
 }
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/aoQ7NG6.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.imgur.com/aoQ7NG6.png");
 
   /* Set a specific height */
   height: 94%;
@@ -45,12 +58,12 @@ body, html {
 }
 
 @keyframes mainbutton {
-    from {
-        color: black;
-        background-color: #ddd;
-    }
-    to {
-        background-color: #555;
-        color: white;
-    }
+  from {
+    color: black;
+    background-color: #ddd;
+  }
+  to {
+    background-color: #555;
+    color: white;
+  }
 }

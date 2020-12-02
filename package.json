@@ -17,9 +17,8 @@
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
     "build": "run-s prod:*",
-    "dev:iparcel": "npm i -g parcel",
     "dev:eleventy": "eleventy --serve",
-    "dev:parcel": "parcel watch ./src/_assets/js/main.js --out-dir ./_site/assets",
+    "dev:parcel": "parcel watch ./src/_assets/js/main.js --out-dir ./_site/assets --no-source-maps",
     "prod:iparcel": "npm i -g parcel",
     "prod:eleventy": "eleventy",
     "prod:parcel": "parcel build ./src/_assets/js/main.js --out-dir ./_site/assets"
