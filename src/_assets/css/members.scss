@@ -25,7 +25,8 @@ section .section-title {
     text-transform: uppercase;
 }
 
-#team .card {
+// TODO #1 Fix CSS for this page, it's kind of broken.
+#team .mcard {
     border: none;
     background: #ffffff;
 }
@@ -104,22 +105,22 @@ section .section-title {
     transform-style: preserve-3d;
 }
 
-.frontside .card,
-.backside .card {
+.frontside .mcard,
+.backside .mcard {
     min-height: 312px;
 }
 
-.backside .card a {
+.backside .mcard a {
     font-size: 18px;
     color: #007b5e !important;
 }
 
-.frontside .card .card-title,
-.backside .card .card-title {
+.frontside .mcard .mcard-title,
+.backside .mcard .mcard-title {
     color: #007b5e !important;
 }
 
-.frontside .card .card-body img {
+.frontside .mcard .mcard-body img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
