@@ -1,12 +1,12 @@
 {
-  "name": "eleventy-bootstrap-starter",
+  "name": "bokohalal",
   "version": "1.0.0",
-  "description": "",
+  "description": "mashallah 🙏",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "discord.js": "^12.5.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.15.0",
     "require-from-web": "^1.2.0"
   },
@@ -25,6 +25,6 @@
     "prod:eleventy": "eleventy",
     "prod:parcel": "parcel build ./src/_assets/js/main.js --out-dir ./_site/assets"
   },
-  "author": "",
+  "author": "Keanu Timmermans",
   "license": "ISC"
 }
