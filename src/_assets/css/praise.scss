@@ -13,3 +13,44 @@
   background-size: cover;
   position: relative;
 }
+
+/* /praise/* */
+#praisetitle {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+#praisedesc {
+  text-align: center;
+  color: white;
+}
+
+#praisefooter {
+  text-align: center;
+  color: white;
+}
+
+/* /praise/bingus */
+#bingusimg {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+/* /praise/floppa/ */
+#floppaimg {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid white;
+}
